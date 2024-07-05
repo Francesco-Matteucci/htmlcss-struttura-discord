@@ -25,9 +25,7 @@ header {
     height: 100px;
 }
 
-.link,
-.logo,
-.login {
+[title] {
     border: 1px dashed black;
 }
 
@@ -41,5 +39,4 @@ header {
     background-color: #EE82EE;
     width: 700px;
     height: 300px;
-    border: 1px dashed black;
 }
