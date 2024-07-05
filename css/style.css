@@ -12,7 +12,6 @@ header {
 }
 
 .high-header {
-    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -63,16 +62,27 @@ header {
 
 /*utils*/
 
+.high-header,
+.a-foot {
+    max-width: 900px;
+}
+
+.lightblue-box,
+.pink-box,
+.tech,
+.sm-b,
+.your-place {
+    height: 400px;
+}
+
 .lightblue-box {
     flex-basis: 550px;
-    height: 400px;
     background-color: lightblue;
 
 }
 
 .pink-box {
     flex-basis: 350px;
-    height: 400px;
     background-color: pink;
 
 }
@@ -94,7 +104,6 @@ header {
 
 .tech {
     flex-basis: 900px;
-    height: 400px;
     background-color: green;
 }
 
@@ -107,18 +116,15 @@ footer {
 .your-place {
     background-color: pink;
     flex-basis: 300px;
-    height: 300px;
 }
 
 .sm-b {
     background-color: lightblue;
     flex-basis: 150px;
-    height: 300px;
 }
 
 .a-foot {
     margin: 15px auto;
-    width: 900px;
     height: 100px;
     background-color: #7FFFD4;
     justify-content: space-between;
