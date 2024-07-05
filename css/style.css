@@ -1,42 +1,92 @@
 * {
-
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*header*/
+
 header {
-    height: 500px;
-    background-color: #ADD8E6;
+    background-color: blue;
     padding: 15px;
+    margin-bottom: 15px;
 }
 
-.high-header {
+.high-header>div {
+    background-color: orange;
+}
+
+.d-flex {
     display: flex;
     align-items: flex-start;
-    background-color: orange;
-    max-width: 900px;
+    justify-content: center;
 }
 
 
 .logo,
 .login {
-    width: 200px;
+    flex-basis: 200px;
     height: 100px;
+
 }
 
 [title] {
     border: 1px dashed black;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .link {
-    width: 500px;
+    flex-basis: 500px;
     height: 100px;
 }
 
-.low-header {
+.low-header>div {
     margin-top: 15px;
     background-color: #EE82EE;
-    width: 700px;
+    flex-basis: 700px;
     height: 300px;
 }
+
+
+
+/*utils*/
+
+.lightblue-box {
+    flex-basis: 550px;
+    height: 400px;
+    background-color: lightblue;
+
+}
+
+.pink-box {
+    flex-basis: 350px;
+    height: 400px;
+    background-color: pink;
+
+}
+
+.description,
+.tecnology {
+    background-color: lightgray;
+}
+
+
+/*main*/
+
+main>* {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.inverted {
+    order: 1;
+}
+
+.tech {
+    flex-basis: 900px;
+    height: 400px;
+    background-color: green;
+}
+
+/*footer*/
