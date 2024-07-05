@@ -1,0 +1,45 @@
+* {
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 500px;
+    background-color: #ADD8E6;
+    padding: 15px;
+}
+
+.high-header {
+    display: flex;
+    align-items: flex-start;
+    background-color: orange;
+    max-width: 900px;
+}
+
+
+.logo,
+.login {
+    width: 200px;
+    height: 100px;
+}
+
+.link,
+.logo,
+.login {
+    border: 1px dashed black;
+}
+
+.link {
+    width: 500px;
+    height: 100px;
+}
+
+.low-header {
+    margin-top: 15px;
+    background-color: #EE82EE;
+    width: 700px;
+    height: 300px;
+    border: 1px dashed black;
+}
